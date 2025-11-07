@@ -1,0 +1,33 @@
+relevantInformation/
+
+# Python environments
+.venv/
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Tooling caches and coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE configuration
+.vscode/
+.idea/
+
+# macOS artifacts
+.DS_Store
+
+# Generated outputs
+results/generated/
