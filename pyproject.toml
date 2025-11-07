@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ohslic"
+version = "0.1.0"
+description = "Adaptive hyperspectral clustering pipeline"
+requires-python = ">=3.10"
+authors = [{name = "Ciem Cornelissen"}]
+dependencies = [
+  "h5py",
+  "matplotlib",
+  "numba",
+  "numpy",
+  "opencv-python",
+  "plotly",
+  "scikit-learn",
+  "scipy",
+  "spectral",
+  "toml",
+  "torch",
+  "torchmetrics",
+  "tqdm",
+]
+
+[project.urls]
+Homepage = "https://github.com/ciemcornelissen/OHSLIC"
+
+[project.scripts]
+ohslic = "ohslic.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

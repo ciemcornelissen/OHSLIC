@@ -31,3 +31,6 @@ htmlcov/
 
 # Generated outputs
 results/generated/
+
+# Local data samples
+data/
