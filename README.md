@@ -86,6 +86,17 @@ Key flags:
 - `--downsample-stride` – control spectral subsampling used during SLIC assignments.
 - The CLI prints both wall-clock timings and lines-per-second throughput for quick performance checks.
 
+## Experimentation
+
+- Adjust `--n-clusters` to explore coarser (lower values) versus finer (higher values) superpixel partitions. Rerun the pipeline and inspect throughput alongside the PNG/HTML artefacts to gauge the trade-off.
+- Control the adaptive split logic with confidence flags: lower `--confidence-threshold` values make the segmenter more tolerant, while `--disable-confidence` removes the split heuristic entirely for baseline comparisons.
+- Combine these options when sweeping hyperparameters. For example:
+   ```bash
+   python main.py process --n-clusters 40 --confidence-threshold 0.7 --save-png
+   python main.py process --n-clusters 20 --disable-confidence --save-png
+   ```
+   Compare the produced figures and timings in `results/generated/` to quantify how the settings impact segmentation density and runtime.
+
 ## Repository Layout
 
 - `main.py` – thin wrapper delegating to the CLI entry point.
