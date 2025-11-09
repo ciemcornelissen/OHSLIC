@@ -55,6 +55,12 @@ Use `python scripts/download_example_data.py` to fetch the example capture from 
 
 The CLI defaults to this directory; point `--data-dir`, `--features-file`, or `--labels-file` to substitute your own captures.
 
+## Example Output
+
+<p align="center">
+   <img src="docs/example_output.png" alt="OHSLIC example overview" width="600" />
+</p>
+
 ## Pretrained Model
 
 `models/pixel_classifier_efficient_0.90_0.79_0.94_0.96.pth` holds the multi-task regressor used in the paper. The loader understands checkpoints with a `model_state_dict` key, so replacing the file with an updated export requires no code changes.
