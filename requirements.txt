@@ -2,6 +2,7 @@ h5py==3.10.0
 matplotlib==3.8.3
 numba==0.59.0
 numpy==1.26.4
+requests==2.31.0
 opencv_python==4.10.0.84
 plotly==6.4.0
 psutil==5.9.8

@@ -30,7 +30,12 @@ OHSLIC accompanies the adaptive clustering paper and bundles the code required t
    ```bash
    pip install -e .
    ```
-5. Run the demo pipeline on the bundled sample capture:
+5. Download the public example capture (creates the `data/` folder with the HDF5 pair):
+   ```bash
+   python scripts/download_example_data.py
+   ```
+
+6. Run the demo pipeline:
    ```bash
    python main.py process --save-png --save-npz
    ```
@@ -43,12 +48,12 @@ OHSLIC accompanies the adaptive clustering paper and bundles the code required t
 
 ## Sample Data
 
-The repository ships a compact hyperspectral cube under `data/`:
+Use `python scripts/download_example_data.py` to fetch the example capture from the KU Leuven/imec Nextcloud. The script downloads the `OHSLIC_hyperspectral_example` archive, unpacks it into `data/`, and leaves two HDF5 files:
 
 - `data/hsi_data_line_example.h5` – spectral lines (256 × 1024 × 213).
 - `data/hsi_label_line_example.h5` – reference chlorophyll/carotenoid/anthocyanin values.
 
-Use the defaults by pointing the CLI to the `data/` directory, or swap in your own captures by supplying `--features-file`/`--labels-file` arguments.
+The CLI defaults to this directory; point `--data-dir`, `--features-file`, or `--labels-file` to substitute your own captures.
 
 ## Pretrained Model
 
@@ -86,7 +91,7 @@ Key flags:
   - `visualization.py` – Plotly figure factory for overview dashboards.
    - `cli.py` – argparse-based interface exposed by `main.py` or the `ohslic` console script.
 - `models/` – pretrained checkpoints (kept small enough for git).
-- `data/` – example capture and ground-truth labels (HDF5, lightweight).
+- `data/` – download destination for the public example capture (ignored by git).
 - `relevantInformation/` – paper figures, plots, and supplementary material.
 - `results/generated/` – created on demand to host inference artefacts.
 
