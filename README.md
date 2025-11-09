@@ -62,7 +62,7 @@ The CLI defaults to this directory; point `--data-dir`, `--features-file`, or `-
 ## Example Output
 
 <p align="center">
-   <img src="docs/example_output.png" alt="OHSLIC example overview" width="600" />
+   <img src="docs/example_output.png" alt="OHSLIC example overview" width="520" />
 </p>
 
 ## Pretrained Model
