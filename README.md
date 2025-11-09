@@ -5,6 +5,11 @@
    </picture>
 </p>
 
+<p align="center">
+  <a href="https://doi.org/10.1109/WACVW65960.2025.00053"><img src="https://img.shields.io/badge/DOI-10.1109%2FWACVW65960.2025.00053-blue" alt="DOI badge" /></a>
+  <a href="https://arxiv.org/abs/2501.10199"><img src="https://img.shields.io/badge/arXiv-2501.10199-b31b1b" alt="arXiv badge" /></a>
+</p>
+
 # OHSLIC – Online Hyperspectral Segmentation with Learned Incremental Clustering
 
 OHSLIC accompanies the adaptive clustering paper and bundles the code required to reproduce the incremental superpixel refinement pipeline. The repository mirrors the structure of the LISA project: a lightweight Python package living under `src/ohslic`, CLI entry points, pretrained weights, and example artefacts for quick experimentation.
