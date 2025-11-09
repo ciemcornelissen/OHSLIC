@@ -1,6 +1,6 @@
 <p align="center">
    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="docs/OHSLIC_logo_dark.png" />
+      <source media="(prefers-color-scheme: dark)" srcset="docs/OHSLIC_logo_dark_GHColour.png" />
       <img src="docs/OHSLIC_logo_light.png" alt="OHSLIC logo" width="420" />
    </picture>
 </p>
