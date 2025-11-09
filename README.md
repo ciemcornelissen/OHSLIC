@@ -139,7 +139,7 @@ flowchart LR
 
 ## Citation
 
-If you build upon this work, please cite the accompanying WACV 2025 workshop paper. A preprint is available on [arXiv](https://arxiv.org/abs/2501.10199), and the camera-ready version ships in `relevantInformation/Adaptive_Clustering_for_Efficient_Phenotype_Segmentation_of_UAV_Hyperspectral_Data.pdf`.
+If you build upon this work, please cite the accompanying WACV 2025 workshop paper. A preprint is available on [arXiv](https://arxiv.org/abs/2501.10199), the official proceedings version is hosted on the [CVF Open Access site](https://openaccess.thecvf.com/content/WACV2025W/GeoCV/html/Cornelissen_Adaptive_Clustering_for_Efficient_Phenotype_Segmentation_of_UAV_Hyperspectral_Data_WACVW_2025_paper.html), and the camera-ready PDF ships in `relevantInformation/Adaptive_Clustering_for_Efficient_Phenotype_Segmentation_of_UAV_Hyperspectral_Data.pdf`.
 
 ```bibtex
 @inproceedings{mypaper,
