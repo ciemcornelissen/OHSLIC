@@ -1,5 +1,8 @@
 <p align="center">
-   <img src="docs/OHSLIC_logo.png" alt="OHSLIC logo" width="420" />
+   <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/OHSLIC_logo_dark.png" />
+      <img src="docs/OHSLIC_logo_light.png" alt="OHSLIC logo" width="420" />
+   </picture>
 </p>
 
 # OHSLIC – Online Hyperspectral Segmentation with Learned Incremental Clustering
