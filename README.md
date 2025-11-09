@@ -139,4 +139,24 @@ flowchart LR
 
 ## Citation
 
-If you build upon this work, please cite the associated manuscript (see `relevantInformation/Adaptive_Clustering_for_Efficient_Phenotype_Segmentation_of_UAV_Hyperspectral_Data.pdf`).
+If you build upon this work, please cite the accompanying WACV 2025 workshop paper. A preprint is available on [arXiv](https://arxiv.org/abs/2501.10199), and the camera-ready version ships in `relevantInformation/Adaptive_Clustering_for_Efficient_Phenotype_Segmentation_of_UAV_Hyperspectral_Data.pdf`.
+
+```bibtex
+@inproceedings{mypaper,
+   author       = {Ciem Cornelissen and
+                           Sam Leroux and
+                           Pieter Simoens},
+   title        = {Adaptive Clustering for Efficient Phenotype Segmentation of {UAV}
+                           Hyperspectral Data},
+   booktitle    = {{IEEE/CVF} Winter Conference on Applications of Computer Vision, {WACV}
+                           2025 - Workshops, Tucson, AZ, USA, February 28 - March 4, 2025},
+   pages        = {422--431},
+   publisher    = {{IEEE}},
+   year         = {2025},
+   url          = {https://doi.org/10.1109/WACVW65960.2025.00053},
+   doi          = {10.1109/WACVW65960.2025.00053},
+   timestamp    = {Wed, 28 May 2025 09:03:47 +0200},
+   biburl       = {https://dblp.org/rec/conf/wacv/CornelissenLS25.bib},
+   bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
